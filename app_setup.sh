@@ -1,5 +1,3 @@
-sudo apt install git
-
 cd ~
 mkdir App
 cd App

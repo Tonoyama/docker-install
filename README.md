@@ -1,4 +1,5 @@
 ```
+sudo apt install git
 sudo nano ~/.gitignore
 ```
 
