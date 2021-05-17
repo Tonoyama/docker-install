@@ -1,4 +1,11 @@
 ```
+sudo nano /etc/environment
+
+http_proxy="http://hoge:8080"
+https_proxy="http://hoge:8080"
+```
+
+```
 sudo apt install git
 sudo nano ~/.gitignore
 ```
