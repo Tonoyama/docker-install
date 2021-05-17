@@ -20,3 +20,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo apt install docker-ce
 
 sudo systemctl status docker
+
+sudo usermod -aG docker ${USER}
+
+su - ${USER}
+
+id -nG
