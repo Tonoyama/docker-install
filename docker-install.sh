@@ -15,9 +15,9 @@ echo \
 
 sudo apt-get update
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
-sudo apt install docker-ce
+sudo apt install docker-ce -y
 
 sudo systemctl status docker
 
@@ -26,3 +26,5 @@ sudo usermod -aG docker ${USER}
 su - ${USER}
 
 id -nG
+
+sudo apt install docker-compose -y
